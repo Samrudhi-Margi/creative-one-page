@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+<meta charset="UTF-8">
+<meta name="author" content="" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!-- SITE TITLE -->
+<title>Touchmed - App Landing Page</title>
+<link rel="icon" href="">
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<!--<link href='http://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600,700' rel='stylesheet' type='text/css'>-->
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="fonts/flaticon.css" />
+<link rel="stylesheet" type="text/css" href="css/responsive.css" />
+<script src="js/jquery.min.js"></script>
+<style>
+#preloader {
+	position: fixed;
+	z-index: 1000;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+}
+/*a, h1, h2, h3, p  {
+    color: #666;
+    text-decoration: none;
+}
+*/
+.fp-slidesNav li a.active, #fp-nav li a.active {
+	box-shadow: inset 0 0 0 8px #0070b9;
+}
+.fp-slidesNav li a, #fp-nav li a {
+	background-color: rgba(255, 255, 255, 0.52);
+	box-shadow: inset 0 0 0 1px rgb(172, 172, 172);
+	-webkit-transition: box-shadow 0.3s ease;
+	transition: box-shadow 0.3s ease;
+}
+.clients-content .icon, .tabs .icon, .features .icon {
+	color: #fff;
+}
+.sidr ul li a, .sidr ul li span {
+	padding: 0 25px;
+	display: block;
+	text-decoration: none;
+	color: #3e3e3e;
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: 700;
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+}
+.sidr {
+	display: none;
+	position: absolute;
+	position: fixed;
+	top: 0;
+	height: 100%;
+	z-index: 999999;
+	width: 240px;
+	overflow-x: none;
+	overflow-y: auto;
+	/*font-family: "lucida grande",tahoma,verdana,arial,sans-serif;*/
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	background: lightgrey;
+}
+.sidr ul li:hover, .sidr ul li.active, .sidr ul li.sidr-class-active {
+	border-top: none;
+	background: #0070b9;
+}
+.sidr ul li a:hover, .sidr ul li a:hover span .sidr ul li a.active, .sidr ul li a:hover span {
+	color: #fff;
+}
+.fp-slidesNav1 {
+	margin-top: 220px;
+}
+#section1 .fp-slidesNav {
+    position: absolute;
+    z-index: 4;
+    margin-left: -523px!important;
+    text-align: left;
+    left: 50%;
+    /* display: none; */
+    opacity: 1;
+    top: 50%;
+    margin-top: 220px;
+}
+li.tab-current {
+    background: #0070b9;
+}
+.tabs-style-linemove nav li:last-child::before {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: #0070b900;
+    content: '';
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+}
+.tabs-style-linemove nav {
+    background: rgba(255, 255, 255, 0.3);
+    overflow: hidden;
+    border-radius: 4px;
+}
+</style>
+</head>
+<body>
+<div id="preloader"><img src="images/logo.png" alt=""></div>
+<a id="main-nav" href="#sidr"><span class="flaticon-menu9"></span></a>
+<div id="sidr" class="sidr"> <a href="#" id="menu-logo"><img src="images/menu-logo.png" alt=""></a>
+  <ul>
+    <li><a href="#Home" ><span class="icons flaticon-house3"></span>Home</a> </li>
+    <li><a href="#Register" ><span class="icons flaticon-drawer1"></span>Registration</a> </li>
+    <li><a href="#Features" ><span class="icons flaticon-drawer1"></span>Features</a> </li>
+    <li><a href="#Products" ><span class="icons flaticon-cursor7"></span>Products</a> </li>
+    <li><a href="#Video" ><span class="icons flaticon-key9"></span>Video</a> </li>
+    <li><a href="#Screenshots" ><span class="icons flaticon-camera19"></span>Screenshots</a> </li>
+    <li><a href="#Clients" ><span class="icons flaticon-comment2"></span>Clients</a> </li>
+    <li><a href="#Refer" ><span class="icons flaticon-comment2"></span>Refer a Friend </a> </li>
+    <!-- <li><a href="#Pricing" ><span class="icons flaticon-tag10"></span>Pricing</a> </li>
+    <li><a href="#Download" ><span class="icons flaticon-download11"></span>Download</a> </li>-->
+    <li><a href="#Contact" ><span class="icons flaticon-small72"></span>Contact</a> </li>
+    <!-- <li><a href="#test" ><span class="icons flaticon-small72"></span>test</a> </li>-->
+  </ul>
+</div>
+<div class="wrap">
+  <div id="logo"> <a href="index.html"><img src="images/logo1.png" alt=""> </a> </div>
+</div>
+<div id="fullpage"> <!-- RIGHT HAND & PHONE MOCK-UP IMAGES -->
+  <div class="wrap">
+    <div class="section-image"> 
+      <!--image for home--> 
+      <img src="images/1.jpg" alt=""> 
+      <!--image for Register--> 
+      <img src="images/2.jpg" alt=""> 
+      <!--image for Features--> 
+      <!--  <img src="images/9.jpg" alt=""> --> 
+      
+      <!--image for Products--> 
+      <!--<img src="images/7.jpg" alt=""> -->
+      <!--image for Video--> 
+      <img src="images/5.jpg" alt=""> 
+      
+      <!-- <img src="images/2.jpg" alt=""> --> 
+      <!--  <img src="images/3.jpg" alt=""> --> 
+      <!--image for Clients--> 
+      <img src="images/8.jpg" alt=""> 
+      <!--image for Refer--> 
+      <img src="images/3.jpg" alt=""> 
+      <!--image for Contact--> 
+      <img src="images/9.jpg" alt=""> 
+      
+        <!--image for Clients--> 
+      <img src="images/1.jpg" alt=""> 
+      <!--image for Refer--> 
+      <img src="images/14.jpg" alt=""> 
+      <!--image for refer--> 
+      <img src="images/24.jpg" alt=""> 
+      <!--image for contact--> 
+      <img src="images/25.jpg" alt=""> 
+      </div>
+    <div id="hand"></div>
+  </div>
+  <!--1 section Home start-->
+  <div class="section " id="section0">
+    <div class="wrap">
+      <div class="box">
+        <h1><strong>TouchMed</strong></h1>
+        <p>TouchMed is India's first marketplace B2B application for healthcare professionals. TouchMed believes that the Indian doctors and pharmacists need better options while buying medicines.</p>
+        <a href="#" class="simple-button playstore-button"><span class="icon playstore"></span>Play Store</a> </div>
+    </div>
+  </div>
+  <!--1 section Home end--> 
+  <!--2 section Register start-->
+  <div class="section " id="section10">
+    <div class="wrap">
+      <div class="box">
+        <h1><strong>Registration</strong></h1>
+        <p>This application is only for healthcare professionals. Only certified doctors and pharmacists can access this application. For registration, kindly submit the required details on the application. The details shall be verified and account shall be activated within 24 working hours.</p>
+        <!--<a href="#" class="simple-button playstore-button"><span class="icon playstore"></span>Play Store</a>--> </div>
+    </div>
+  </div>
+  <!--2 section Register start--> 
+  <!--3 section Features start-->
+  <div class="section " id="section1">
+    <div class="wrap">
+      <div class="box box1"> 
+    
+        <div class="fp-tableCell features-content">
+          <h2><strong>Features</strong> </h2>
+          <ul class="features">
+            <li><a class="tooltip"><span class="icon flaticon-camera19"></span>
+TouchMed is the first B2B marketplace application for healthcare professionals. </a> </li>
+
+<li><a class="tooltip"><span class="icon flaticon-camera19"></span>
+TouchMed delivers medicines directly from the pharmaceutical companies to the customers, thus overcoming the middle suppliers. 
+This ensures top quality medicines are supplied at rates better than even generics in the market.</a> </li>
+
+<li><a class="tooltip"><span class="icon flaticon-camera19"></span>
+TouchMed houses medicines only from Wintech Pharmaceuticals & Zenova Therapeutics. </a> </li>
+
+<li><a class="tooltip"><span class="icon flaticon-camera19"></span>
+These companies have served more than 40 million patients worldwide. 
+So quality of the medicines provided on the application is unparalleled.</a> </li>
+
+<li><a class="tooltip"><span class="icon flaticon-camera19"></span>
+At the same time, TouchMed is the only application in India providing medicines directly to healthcare professionals from 
+pharmaceutical companies at such a large scale. </a> </li>
+
+<li><a class="tooltip"><span class="icon flaticon-camera19"></span>
+So you get top quality products from TouchMed at never before pricing</a> </li>
+          </ul>
+        </div>
+      </div>
+      <div class="screenshots-wrapper">
+        <div class="slide" id="slide1" data-anchor="slide1"> <img src="images/9.jpg" alt=""> </div>
+        <div class="slide" id="slide2" data-anchor="slide2"> <img src="images/11.jpg" alt=""> </div>
+        <div class="slide" id="slide3" data-anchor="slide3"> <img src="images/14.jpg" alt=""> </div>
+        <div class="slide" id="slide4" data-anchor="slide4"> <img src="images/19.jpg" alt=""> </div>
+        <div class="slide" id="slide5" data-anchor="slide5"> <img src="images/23.jpg" alt=""> </div>
+        <div class="slide" id="slide6" data-anchor="slide6"> <img src="images/22.jpg" alt=""> </div>
+        <div class="slide" id="slide7" data-anchor="slide7"> <img src="images/17.jpg" alt=""> </div>
+      </div>
+     
+  </div>
+</div>
+<!--3 section Features end--> 
+<!--4 section Products start-->
+<div class="section" id="section2">
+     <div class="wrap">
+      <div class="box"> 
+    
+        <div class="fp-tableCell features-content">
+      <h2> <strong>Products</strong></h2>
+     
+      <p>TouchMed has a wide range of products. All products are manufactured under strict quality adherening systems. The range of products is wide. TouchMed has Analgesics, Anti-Biotics, Anti-Alergics, Anti-Fungals, Anti-Hpypertensives, Anti-Malarials, Calcium Preparations, Cough & Cold Preparations, GI Preparations, Haematinic Preparations, Steroids, Anti-Acne Preparations, MultiVitamins, Anti-Pyretics, etc. These preparations are available in various formats - Orals, Liquids, Injectables, Ointments etc.</p>
+    </div>
+    </div>
+    <div class="screenshots-wrapper">
+        <div class="slide" id="slide1" data-anchor="slide1"> <img src="images/7.jpg" alt=""> </div>
+        <div class="slide" id="slide2" data-anchor="slide2"> <img src="images/9.jpg" alt=""> </div>
+      
+      </div>
+  </div>
+</div>
+<!--4 section Products end--> 
+<!--5 section Video start-->
+<div class="section" id="section3">
+  <div class="wrap">
+    <div class="box">
+    <h2> <strong>Video</strong> </h2>
+   <div class="tabs tabs-style-linemove">
+          <nav>
+            <ul>
+              <li><a href="#section-linemove-1"><span class="icon flaticon-lightbulb"></span><span> Doctor</span></a> </li>
+              <li><a href="#section-linemove-2"><span class="icon flaticon-adjust3"></span><span> Pharmacist</span></a> </li>
+              
+            </ul>
+          </nav>
+          <div class="content-wrap">
+            <section id="section-linemove-1">
+             <iframe width="500" height="281" src="https://www.youtube.com/embed/rew270bpe0M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+            <section id="section-linemove-2">
+              <iframe width="500" height="281" src="https://www.youtube.com/embed/quKRek2g6Cw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+            
+            
+          </div>
+        </div>
+     
+    </div>
+    
+  </div>
+</div>
+<!--5 section Video end--> 
+<!--6 section Screenshots start-->
+<div class="section" id="section5">
+  <div class="wrap">
+    <div class="box">
+      <div class="fp-tableCell screenshots-content">
+        <h2>App Screens</h2>
+       
+      </div>
+    </div>
+    <div class="screenshots-wrapper">
+      <div class="slide" id="slide1" data-anchor="slide1"> <img src="images/4.jpg" alt=""> </div>
+      <div class="slide" id="slide2" data-anchor="slide2"> <img src="images/5.jpg" alt=""> </div>
+      <div class="slide" id="slide3" data-anchor="slide3"> <img src="images/8.jpg" alt=""> </div>
+      <div class="slide" id="slide4" data-anchor="slide4"> <img src="images/13.jpg" alt=""> </div>
+      <div class="slide" id="slide5" data-anchor="slide5"> <img src="images/16.jpg" alt=""> </div>
+      <div class="slide" id="slide6" data-anchor="slide6"> <img src="images/17.jpg" alt=""> </div>
+     
+    </div>
+  </div>
+</div>
+
+<!--6 section Screenshots end--> 
+
+<!--7 section Clients start-->
+<div class="section" id="section10">
+    <div class="wrap">
+      <div class="box">
+        <h1><strong>Customers</strong></h1>
+        <p>TouchMed today serves more than thousands of healthcare professionals in the city of Mumbai. This application is only for certified doctors & pharmacists.</p>
+        <!--<a href="#" class="simple-button playstore-button"><span class="icon playstore"></span>Play Store</a>--> </div>
+    </div>
+  </div>
+<!--7 section Clients end-->
+<!--7 section Clients start-->
+<div class="section" id="section4">
+  <div class="wrap">
+    <div class="fp-tableCell clients-content">
+      <div class="box">
+        <h2><strong>Clients</strong></h2>
+        
+        <div class="slide" data-anchor="slide1">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero dolores omnis illum, voluptates fugiat incidunt, consectetur aspernatur rerum. Consequatur obcaecati, facere iusto alias nostrum officiis modi eum perspiciatis.</p>
+          <p> <span class="client-name"> <strong> Mark Williams</strong> - Developer</span> <span class="client-stars"> <span class="icon flaticon-little27"></span> <span class="icon flaticon-little27"></span> <span class="icon flaticon-half3"></span> <span class="icon flaticon-fivepointed"></span> <span class="icon flaticon-fivepointed"></span> </span> </p>
+        </div>
+        <div class="slide" data-anchor="slide2">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero dolores omnis illum, voluptates fugiat incidunt, consectetur aspernatur rerum. Consequatur obcaecati, facere iusto alias nostrum officiis modi eum perspiciatis.</p>
+          <p> <span class="client-name"> <strong> Andreas Bosch</strong> - CEO</span> <span class="client-stars"> <span class="icon flaticon-little27"></span> <span class="icon flaticon-little27"></span> <span class="icon flaticon-little27"></span> <span class="icon flaticon-little27"></span> <span class="icon flaticon-fivepointed"></span> </span> </p>
+        </div>
+        <div class="slide" data-anchor="slide3">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero dolores omnis illum, voluptates fugiat incidunt, consectetur aspernatur rerum. Consequatur obcaecati, facere iusto alias nostrum officiis modi eum perspiciatis.</p>
+          <p> <span class="client-name"> <strong> Michael Speria</strong> - Manager</span> <span class="client-stars"> <span class="icon flaticon-little27"></span> <span class="icon flaticon-little27"></span> <span class="icon flaticon-little27"></span> <span class="icon flaticon-fivepointed"></span> <span class="icon flaticon-fivepointed"></span> </span> </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--7 section Clients end--> 
+<!--8 section Refer start-->
+<div class="section" id="section2">
+  <div class="wrap">
+    <div class="box">
+      <h2> <strong>Refer a Friend</strong></h2>
+      <!--<div class="tabs tabs-style-linemove">
+          <nav>
+            <ul>
+              <li><a href="#section-linemove-1"><span class="icon flaticon-lightbulb"></span><span> Design</span></a> </li>
+              <li><a href="#section-linemove-2"><span class="icon flaticon-adjust3"></span><span> Features</span></a> </li>
+              <li><a href="#section-linemove-3"><span class="icon flaticon-drawer1"></span><span> Demos</span></a> </li>
+              <li><a href="#section-linemove-4"><span class="icon flaticon-laptop3"></span><span> Elements</span></a> </li>
+            </ul>
+          </nav>
+          <div class="content-wrap">
+            <section id="section-linemove-1">
+              <h4><span class="icon flaticon-lightbulb"></span> Good design doesn't date!</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora similique excepturi obcaecati, maiores nostrum esse illo in soluta at saepe perspiciatis eos quasi laudantium sunt ad quaerat ipsum dolor sit amet, consectetur adipisicing elit?</p>
+            </section>
+            <section id="section-linemove-2">
+              <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora similique excepturi obcaecati, aiores nostrum esse illo in soluta.</h4>
+              <ul class="features">
+                <li><a class="tooltip" href="#"><span class="icon flaticon-desktop1"></span> Unique Design</a> </li>
+                <li><a class="tooltip" href="#"><span class="icon flaticon-small62"></span> Well Documented</a> </li>
+              </ul>
+              <ul class="features">
+                <li><a class="tooltip" href="#"><span class="icon flaticon-outlined3"></span> Multiple Demos</a> </li>
+                <li><a class="tooltip" href="#"><span class="icon flaticon-lightbulb"></span> Amazing Features</a> </li>
+              </ul>
+            </section>
+            <section id="section-linemove-3">
+              <h4><span class="icon flaticon-drawer1"></span> Check out Appsperia's multiple demos!</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora similique excepturi obcaecati, maiores nostrum esse illo in soluta at saepe perspiciatis eos quasi laudantium sunt ad quaerat ipsum dolor sit amet, consectetur adipisicing elit?</p>
+            </section>
+            <section id="section-linemove-4">
+              <p>
+              <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora similique excepturi obcaecati, aiores nostrum esse illo in soluta.</h4>
+              <ul class="features">
+                <li><a class="tooltip" href="#"><span class="icon flaticon-desktop1"></span> Content Boxes</a> </li>
+                <li><a class="tooltip" href="#"><span class="icon flaticon-small62"></span> Extended Tabs</a> </li>
+              </ul>
+              <ul class="features">
+                <li><a class="tooltip" href="#"><span class="icon flaticon-outlined3"></span> Carousels & Sliders</a> </li>
+                <li><a class="tooltip" href="#"><span class="icon flaticon-lightbulb"></span> Contact Form</a> </li>
+              </ul>
+            </section>
+          </div>
+        </div>-->
+      <p>TouchMed has a wide range of products. All products are manufactured under strict quality adherening systems. The range of products is wide. TouchMed has Analgesics, Anti-Biotics, Anti-Alergics, Anti-Fungals, Anti-Hpypertensives, Anti-Malarials, Calcium Preparations, Cough & Cold Preparations, GI Preparations, Haematinic Preparations, Steroids, Anti-Acne Preparations, MultiVitamins, Anti-Pyretics, etc. These preparations are available in various formats - Orals, Liquids, Injectables, Ointments etc.</p>
+    </div>
+  </div>
+</div>
+<!--8 section Refer end--> 
+<!--9 section Contact start-->
+<div class="section" id="section8">
+  <div class="wrap">
+    <div class="box">
+      <h2><strong>Get</strong> in touch</h2>
+      <!--<ul class="features">
+        <li><a class="tooltip" href="#"><span class="icon flaticon-telephone1"></span> Call Us now<span class="tooltip-content"><span class="tooltip-text"><span class="tooltip-inner"><span class="icon flaticon-telephone1"></span>Support: +01 800.300.381 <br>
+          Marketing: +01 800.300.382 <br>
+          Manager: +01 800.300.383 </span></span></span></a> </li>
+        <li><span class="tooltip"><span class="icon flaticon-map5"></span>See our location<span class="tooltip-content"><span class="tooltip-text"><span class="tooltip-inner"><span class="icon flaticon-map5"></span>2819-2835 Florence Ave, Huntington Park, CA 90255 <br>
+          <a href="https://www.google.com/maps/dir/33.9736437,-118.2192335/" target="_blank">View Map</a> </span> </span> </span> </span> </li>
+      </ul>-->
+      <!--<ul class="features">
+        <li><span class="tooltip"><span class="icon flaticon-cursor7"></span>Official Website <span class="tooltip-content"><span class="tooltip-text"><span class="tooltip-inner"><span class="icon flaticon-cursor7"></span> <br>
+          <a href="http://themeforest.net/" target="_blank">www.appsperia.net</a> </span> </span> </span> </span> </li>
+        <li><a class="tooltip" href="#"><span class="icon flaticon-mail9"></span> Send Email<span class="tooltip-content"><span class="tooltip-text"><span class="tooltip-inner"><span class="icon flaticon-mail9"></span>contact@mail.com<br>
+          office@mail.com<br>
+          support@mail.com</span></span></span></a> </li>
+      </ul>-->
+      <form role="form" method="post" id="contact-form">
+        <input type="text" placeholder="Name" name="Name" id="Name" required>
+        <input type="email" placeholder="Email" name="Email" id="Email" required>
+        <input type="text" placeholder="Phone" name="Phone" id="Phone">
+        <input type="text" placeholder="Subject" name="Subject" id="Subject">
+        <textarea placeholder="Message" name="Message" id="Message" required></textarea>
+        <button type="submit" id="submit">Send</button>
+        <!-- <div id="success"></div>-->
+      </form>
+    </div>
+  </div>
+</div>
+<!--9 section Contact end-->
+
+</div>
+<div class="wrap">
+ <div class="box">
+  <div id="social-icons">
+    <ul>
+      <li><a href="#"><i class="flaticon-facebook6"></i></a> </li>
+      <li><a href="#"><i class="flaticon-social19"></i></a> </li>
+      <li><a href="#"><i class="flaticon-google16"></i></a> </li>
+    
+     
+    </ul>
+  </div>
+  <div id="footer-nav">
+  <ul>
+      <li><a href="faq.html">FAQs</a> </li> |
+      <li><a href="terms.html">Terms & Conditions</a> </li>
+     
+    </ul>
+  </div>
+  </div>
+</div>
+<script src="js/jquery.easings.min.js"></script> 
+<script src="js/jquery.fullPage.js"></script> 
+<script src="js/cbpFWTabs.js"></script> 
+<script src="js/jquery.sidr.min.js"></script> 
+<script src="js/scripts.js"></script> 
+<!--<script type="text/javascript" src="js/video.js"></script> -->
+
+</body>
+</html>

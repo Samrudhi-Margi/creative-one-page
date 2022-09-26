@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+<meta charset="UTF-8">
+<meta name="author" content="" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!-- SITE TITLE -->
+<title>Touchmed - App Landing Page</title>
+<link rel="icon" href="">
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<!--<link href='http://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600,700' rel='stylesheet' type='text/css'>-->
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="fonts/flaticon.css" />
+<link rel="stylesheet" type="text/css" href="css/responsive.css" />
+<script src="js/jquery.min.js"></script>
+<style>
+#preloader {
+	position: fixed;
+	z-index: 1000;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+}
+/*a, h1, h2, h3, p  {
+    color: #666;
+    text-decoration: none;
+}
+*/
+.fp-slidesNav li a.active, #fp-nav li a.active {
+	box-shadow: inset 0 0 0 8px #0070b9;
+}
+.fp-slidesNav li a, #fp-nav li a {
+	background-color: rgba(255, 255, 255, 0.52);
+	box-shadow: inset 0 0 0 1px rgb(172, 172, 172);
+	-webkit-transition: box-shadow 0.3s ease;
+	transition: box-shadow 0.3s ease;
+}
+.clients-content .icon, .tabs .icon, .features .icon {
+	color: #fff;
+}
+.sidr ul li a, .sidr ul li span {
+	padding: 0 25px;
+	display: block;
+	text-decoration: none;
+	color: #3e3e3e;
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: 700;
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+}
+.sidr {
+	display: none;
+	position: absolute;
+	position: fixed;
+	top: 0;
+	height: 100%;
+	z-index: 999999;
+	width: 240px;
+	overflow-x: none;
+	overflow-y: auto;
+	/*font-family: "lucida grande",tahoma,verdana,arial,sans-serif;*/
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	background: lightgrey;
+}
+.sidr ul li:hover, .sidr ul li.active, .sidr ul li.sidr-class-active {
+	border-top: none;
+	background: #0070b9;
+}
+.sidr ul li a:hover, .sidr ul li a:hover span .sidr ul li a.active, .sidr ul li a:hover span {
+	color: #fff;
+}
+.box1 {
+	width: 71%;
+}
+.fp-slidesNav1 {
+	margin-top: 220px;
+}
+#section1 .fp-slidesNav {
+	position: absolute;
+	z-index: 4;
+	margin-left: -523px!important;
+	text-align: left;
+	left: 50%;
+	/* display: none; */
+	opacity: 1;
+	top: 50%;
+	margin-top: 220px;
+}
+li.tab-current {
+	background: #0070b9;
+}
+.tabs-style-linemove nav li:last-child::before {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 4px;
+	background: #0070b900;
+	content: '';
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+}
+.tabs-style-linemove nav {
+	background: rgba(255, 255, 255, 0.3);
+	overflow: hidden;
+	border-radius: 4px;
+}
+</style>
+</head>
+<body>
+<div id="preloader"><img src="images/logo.png" alt=""></div>
+<a id="main-nav" href="#sidr"><span class="flaticon-menu9"></span></a>
+<div id="sidr" class="sidr"> <a href="#" id="menu-logo"><img src="images/menu-logo.png" alt=""></a>
+  <ul>
+    <li><a href="#Home" ><span class="icons flaticon-house3"></span>Home</a> </li>
+    <li><a href="#Register" ><span class="icons flaticon-drawer1"></span>Registration</a> </li>
+    <li><a href="#Features" ><span class="icons flaticon-drawer1"></span>Features</a> </li>
+    <li><a href="#Products" ><span class="icons flaticon-cursor7"></span>Products</a> </li>
+    <li><a href="#Video" ><span class="icons flaticon-key9"></span>Video</a> </li>
+    <li><a href="#Screenshots" ><span class="icons flaticon-camera19"></span>Screenshots</a> </li>
+    <li><a href="#Clients" ><span class="icons flaticon-comment2"></span>Clients</a> </li>
+    <li><a href="#Refer" ><span class="icons flaticon-comment2"></span>Refer a Friend </a> </li>
+    <!-- <li><a href="#Pricing" ><span class="icons flaticon-tag10"></span>Pricing</a> </li>
+    <li><a href="#Download" ><span class="icons flaticon-download11"></span>Download</a> </li>-->
+    <li><a href="#Contact" ><span class="icons flaticon-small72"></span>Contact</a> </li>
+    <!-- <li><a href="#test" ><span class="icons flaticon-small72"></span>test</a> </li>-->
+  </ul>
+</div>
+<div class="wrap">
+  <div id="logo"> <a href="index.html"><img src="images/logo1.png" alt=""> </a> </div>
+</div>
+<div id="fullpage"> <!-- RIGHT HAND & PHONE MOCK-UP IMAGES --> 
+  
+  <!--1 section Home start-->
+  <div class="" >
+    <div class="wrap">
+      <div class="box-new">
+        <div >TouchMed<br>
+          Copyright (c) 2016 Wintech Pharmaceuticals<br>
+          END USER LICENSE AGREEMENT <br>
+          IMPORTANT - PLEASE READ THIS LICENSE CAREFULLY BEFORE USING THIS SOFTWARE. <br>
+          <ol>
+            <strong>
+            <li> LICENSE </li>
+            </strong> By installing, registering and using this TouchMed mobile application ("App") developed and owned in its entirety by Wintech Pharmaceuticals ("Company / we / us" which term includes, for the purposes of this agreement, its affiliates, agents, subcontractors, suppliers, consultants, advertisers, affiliates, partner or any other associated entities), you agree and acknowledge that this END USER LICENSE AGREEMENT ("EULA") is a legally binding and valid contract between the Company and yourself and you agree to be bound by the terms and conditions hereinafter appearing including but not limited to the terms relating to the intellectual property rights of the Company. <br>
+            <br>
+            The Company in its sole discretion reserves the right to change, modify, add and / or delete any portions of this EULA ("Amendment") at any time without prior notice. The Amendment shall be made available on the App. You confirm that it is your responsibility to review the Amendment. Your use of the App pursuant to the Amendment shall signify your assent and acceptance to the Amendment along with EULA. <br>
+            <br>
+            Subject to the terms of this EULA, the Company grants you a limited, non-exclusive, non-transferable, non-assignable, temporary, non-sub-licensable, right to use this App in accordance with this EULA. By way of this EULA, the Company does not in any manner transfer any right, title and / or any interest in the App to you; the license is purely to facilitate your use of the services offered / business transactions facilitated by the Company between the brand / firm whose goods / products have been listed on the App for sale ("Product") as per the terms and conditions applicable to that Product and yourself and is not to be construed as a sale or transfer of any interest in the App in any manner whatsoever. 
+            In the event of your non-acceptance of any of the provisions herein, you agree to immediately uninstall and delete this App from your mobile device.<br>
+            <br>
+            <strong>
+            <li> DISTRIBUTION<br>
+            </li>
+            </strong> The App and the license herein granted shall not be copied, shared, distributed, transferred or sub licensed in whole or in part by you for any reason whatsoever.<br>
+            <br>
+            <strong>
+            <li> USER TERMS<br>
+            </li>
+            </strong> 3.1  This EULA grants you the sole right to install, register and use only one / single licensed version of this App and you shall not allow others to use and / or copy the App from your mobile device. Any attempt to do so shall be at your sole risk, expense and consequence.<br>
+            3.2 You agree and acknowledge using the App in compliance with all the applicable laws and not for any other unlawful purpose whatsoever. You must not use the App in any way that causes, or is likely to cause, the App or access to it to be interrupted, damaged or impaired in any way.<br>
+            3.3 This App contains intellectual property including copyrighted material, trademarks, trade secrets and other proprietary material of the Company. You shall not, for any reason whatsoever, attempt to, sell, lease, sublicense, distribute, transfer, copy, reproduce, modify, reverse engineer, disassemble, destroy, tamper, mutilate, add any functionality, decompile, adapt, store, time-share any part of the App and / or any information received or accessed there from. In addition you may not remove alter or obscure any copyright, legal or proprietary notices in or on any portions of the App.
+            You may not use any meta tags or any other "hidden text" utilising the Company's name or trademarks. Any use of the information/ graphics/designs/software/ code and other materials contained in the App requires the prior written consent of the Company and may require a separate fee/charge that shall be decided at the sole discretion of the Company.<br>
+            3.4 Third party content appearing in this App is the property of their respective owners and the Company does not assert any rights in relation to the same. Such third party content is used by the Company subject to the fair use provisions of Indian copyright law. <br>
+            3.5 You agree and acknowledge that you shall not create any derivative works and / or create any works that are based on or derived from the App in whole or in any part thereof. <br>
+            3.6 The Company shall retain the sole, perpetual and exclusive ownership of all right, title and interest in and to the App, its title, content, images, graphics, designs, software, codes, videos and all the intellectual property rights relating thereto. <br>
+            3.7 No program, code, part, image, audio sample and / or text comprised in the App may be copied or used in any manner by you except as intended as per this EULA. <br>
+            <br>
+            <strong>
+            <li> ACCOUNTS <br>
+            </li>
+            </strong> The registration on or use/ access of the Application is only available to a Registered Medical Practitioner and a Registered Pharmacist, other than those who are ‘incompetent to contract’ under the Contract Act. That is, persons including minors, un-discharged insolvents etc. are not eligible to register on, or use/ access the Application. The Services would be made available to such Registered Medical Practitioners and Registered Pharmacists who have agreed to become buyers on the Application after obtaining due registration, in accordance with the procedure as determined by TouchMed, from time to time (referred to as “You” or “Your” or “Yourself” or “User1” for a Registered Pharmacist and referred to as “You” or “Your” or “Yourself” or “User2” for a Registered Medical Practitioner and referred to as “You” or “Your” or “Yourself” or "User" or “Users” for both set of customers - Registered Pharmacist and Registered Medical Practitioner).<br>
+            <br>
+            By registering, accessing or using the Application, you accept the terms of this Terms of Use and represent and warrant to TouchMed that you are ‘competent to contract’ under the Contract Act and have the right, authority and capacity to use the Application and agree to and abide by its Terms of Use.
+            This App. requires you to create an account by way of a registration process in order to carry on transactions through the App. You agree to provide maintain and update true, accurate, current and complete information about yourself and your business (inclusive of KYC documentation) as may be prompted by our registration processes. You shall not impersonate any person or entity or misrepresent your identity, education, business practice or affiliation with any person or entity, including using another person's username, password or other account information, or another person's name, likeness, voice, image or photograph and also the KYC documentation, business details and any such confidential details. <br>
+            <br>
+            You agree and acknowledge that any contravention of this Clause shall be construed as contravention of the Information Technology Act, 2000 and any amendments thereof and such other regulations that may be applicable as per the prevalent judicial system. You agree that you are solely responsible for maintaining the confidentiality of your account, username and password and for restricting access to your mobile device to prevent unauthorised access to your account. You agree to accept responsibility for all activities that occur under your account, username or password.<br>
+            <br>
+            You should take all necessary steps to ensure that the password is kept confidential and secure. You also agree to promptly notify us at the address set out at the end of this EULA of any unauthorized use of your username, password, other account information, or any other breach of security that you become aware of involving or relating to this App. In addition, you agree to exit from your account at the end of each session by logging off properly.
+            The Company in its sole discretion reserves the right to refuse access to the App or terminate your account at any time without notice to you.<br>
+            <br>
+            <strong>
+            <li> MEDICATION POLICY<br>
+            </li>
+            </strong> The drug information provided in TouchMed is for informative purposes only and this application is not intended to provide diagnosis, treatment or medical advice. We are not liable for any adverse effects or harm to you as a result of your reliance on the information in the application. 
+            TouchMed requires either the Users or Customer or the Caregiver to confirm he/she is completely aware of the indications, side effects, drug interactions, effects of missed dose or overdose of the medicines he/she orders from us. 
+            While communicating/ transacting with Sellers through the Application, the Users shall at all times ensure full compliance with the applicable provisions of the various Drugs Acts and Rules, as well as all other laws, for the time being in force, and ensure due payment of applicable taxes. They must specifically ensure that they are in no way purchasing drugs or pharmaceutical products or services or Prescription Drugs which are prohibited under the Drugs Act (read with the Drugs Rules) as well as the other applicable laws for the time being in force. <br>
+            <br>
+            The content of the Application, including without limitation, text, copy, audio, video, photographs, illustrations, graphics and other visuals, is for informational purposes only and does not constitute professional medical advice, diagnosis, treatment or recommendations of any kind.
+            Reliance on any information appearing on the Application, whether provided by TouchMed, its content providers, visitors to the Application or others, is solely at your own risk, and TouchMed shall not bear any liability for any loss/ injury that may arise due to your reliance on any information published on the Application. <br>
+            <br>
+            User1 must never avoid or cause any delay in obtaining medical advice from a Registered Medical Practitioner or disregard any such medical advice duly obtained, because of any information provided on the Application. If you or any of your patients have or suspect that you/they have a medical problem or condition, please contact a Registered Medical Practitioner immediately.<br>
+            <br>
+            The Application is a platform that can be used by the Users to purchase various drugs and pharmaceutical products, offered for sale on the Application by Sellers. User1 (Registered Pharmacists) acknowledges and understands that these drugs would be dispensed by them only on a prescription of a registered medical practitioner. User 2 (Registered Medical Practitioner) acknowledges and understands that the drugs procured from TouchMed are to be dispensed to their OWN patients within the licensed premises and not to be sold to others under the sign of 'Pharmacy', 'Pharmacist', 'Dispensing Chemist', or “Pharmaceutical Chemist” or any other sign that indicates sale of medicines. 
+            TouchMed shall maintain a record of all the orders uploaded by the Users. <br>
+            <br>
+            The Users acknowledge and understand that TouchMed does not intend to motivate or incentivize substitution of valid prescription by a Registered Medical Practitioner.  
+            The Users acknowledge and accept that the substitution of a Prescription Drug should only be processed if the Registered Medical Practitioner has himself/ herself permitted for any other equivalent generic drug to be dispensed in place of the prescribed drug or if the prescription solely lists the salt names instead of a specific brand name.<br>
+            <br>
+            The User further acknowledges and accepts that, in the absence of the above, the concerned pharmacist should only dispense a substitute drug in place of the prescribed drugs after obtaining suitable permission from the prescribing Registered Medical Practitioner.
+            TouchMed does not, at any point of time, take possession of, or stock any of the goods or services offered for sale by the Seller on the Application. 
+            The goods shall be delivered by the Seller or independent contractors. The User accepts and acknowledges that the Seller or such other transporter/ courier/ delivery personnel, engaged by the Seller or TouchMed, shall deliver the goods to the address notified by the User, with no control over the goods and no additional obligation apart from standard delivery obligations and duty of care.<br>
+            <br>
+            <strong>
+            <li> PRICE & PAYMENT<br>
+            </li>
+            </strong> We make every effort to make sure that the pricing and availability of Products on our Application is accurate and up to date. However, rarely, there may be an error on the pricing of a product or an error related to product availability. In such cases, we are not responsible for any typographical errors and we reserve the right to cancel the sale.
+            
+            We reserve the right to correct any inaccuracies or omissions related to pricing and product availability/descriptions, even after you have submitted your order, and to change or update any other information at any time without prior notice.<br>
+            <br>
+            Our shipping charges include a standard delivery rate of Rs. 99 if the order value is less than Rs. 1000, and Free delivery if the order value is equal to or more than Rs. 1000.
+            
+            Standard delivery orders will be delivered within 3 to 7 working days, wherein the day of order is considered as 'day 0'. It should be noted that 'Sundays' and all 'national & regional' holidays shall be considered as non-working days. 
+            You can make the payment via any one of the following methods of payment: Credit/Debit Card, Net Banking or Cash on Delivery.
+            
+            Credit/Debit Card and Net Banking Payments are via our online payment service partner, Instamojo.<br>
+            <br>
+            <strong>
+            <li> LIABILITY DISCLAIMER <br>
+            </li>
+            </strong> You expressly agree that your access and /or use of the App and purchase of the products available for sale therein are at your sole risk and consequence. 
+            The Company is in no way liable to you for any inaccuracies or errors in the contents, information, software, Product features etc. appearing on this App. It may include inaccuracies or typographical errors. Changes are periodically added to the contents. The App may be temporarily unavailable from time to time due to required maintenance, telecommunications / server interruptions, or other disruptions including but not limited to delays or interruptions due to electronic or mechanical equipment failures, telephone interconnect problems, Internet problems, server problems, defects, weather, strikes, walkouts, fire, acts of god, riots, armed conflicts, acts of war, or other like causes. The Company shall have no responsibility to provide you access to the App while interruption to the App due to any such cause continues. The Company shall not be liable for any loss or liability resulting directly or indirectly, from such discontinuance of the services. <br>
+            <br>
+            The Company shall not be liable to you or any third party, should the Company exercise its right to modify or discontinue any or all of the contents, information, software, products, features and services published on the App at any point of time. 
+            The Company makes no representations about the veracity and/ or suitability of the contents, information, software, Products, features and services, contained on the App for any purpose. All such contents, information, software, features and services are provided "as is" without warranty of any kind either express or implied by the Company, including without limitation, any warranty for information, data, services, or Products provided through or in connection with the App. <br>
+            <br>
+            You acknowledge and undertake that you are transacting through the App at your own risk and are using your best and prudent judgment before entering into any transactions through the App. The Company shall neither be liable nor responsible for any actions or inactions of any brand / firm whose products are listed for sale on the App nor any breach of conditions, representations or warranties by the brand / firm of the Products and hereby expressly disclaim and any all responsibility and liability in that regard. 
+            Specifically, the Company disclaims any and all implied warranties and conditions of title, merchantability, fitness for a particular purpose, title, non-infringement, and availability in relation to the Products displayed on the App. For the sake of clarity, in no event will the Company be liable to you and you hereby release the Company from any and all liability to you and you waive any right against the Company for contribution or indemnity arising from any third party claim against you in connection with (i) infringement of any third party's intellectual property rights or (ii) the use of any Product. Warranties, if applicable to Products shall be provided by the brand / firm whose products are listed for Sale on the App and the company shall in no manner be held responsible for any dispute regarding the same and/ or failure of the brand/ firm to honour such warranties.<br>
+            <br>
+            You specifically agree that the Company shall not be responsible for unauthorized access to or alteration of your transmissions or data, any material or data sent or received or not sent or received, or any transactions entered into through the App. You specifically agree that the Company is not responsible or liable for any threatening, defamatory, obscene, offensive or illegal content or conduct of you and/or any other party or any infringement of another's rights, including intellectual property rights. You specifically agree that the Company is not responsible for any content sent using and/ or included in the App by you and/or any third party. 
+            TouchMed assumes no responsibility, and shall not be liable for, any damages to, or viruses that may infect User's equipment on account of User's access to, use of, or browsing the Application or the downloading of any material, data, text, images, video content, or audio content from the Application. If a User is dissatisfied with the Application, User's sole remedy is to discontinue using the Application.<br>
+            <br>
+            For the sake of clarity, in no event will the Company be liable to you for any direct, special, indirect, incidental, consequential or punitive damages, however caused, on any theory of liability including contract, tort, negligence, strict liability, product liability and whether or not you have been advised of the possibility of such damages, arising under any cause of action and arising in any way out of this EULA. 
+            The personal information/data provided to us by you during your access to this App will be treated as strictly confidential and in accordance with the applicable laws and regulations. If you object to your information being transferred or used in accordance herewith, please do not use this App. Please note that we expect all the information to be provided by the users during registration process to be truthful and correct. Any wrong information provided or fraudulent way of getting drugs from TouchMed shall invite a legal action.<br>
+            <br>
+            In any event, the Company reserves the right to disclose any personal information about you or your use of the App, including its contents, without your prior permission if the Company has a good faith belief that such action is necessary to: (1) conform to legal requirements or comply with legal process; (2) protect and defend the rights or property of the Company or its affiliated companies; (3) enforce the terms of use (4) is required by financial institutions as a pre-requisite to extend credit to you for transacting on the App. <br>
+            <br>
+            <strong>
+            <li> RETURNS/ REFUNDS POLICY<br>
+            </li>
+            </strong> At TouchMed, we do our best to ensure that you are completely satisfied with our products. We understand that returns may be necessary in some cases. And we are happy to offer you peace of mind when you are not fully satisfied with the purchase and want to return back the products to us. You may return the ordered item(s), or any item(s) included in the order, within 7 days of the arrival of your order. <br>
+            You may receive a full refund, minus the payment charges based on the conditions listed below: <strong>Please note: TouchMed's ‘Returns Policy’ may vary depending on the specific nature of the products.</strong> Refunds Possible If the Item(s) You Received:<br>
+            •	is different from the ones you ordered;<br>
+            •	are lost or damaged during transit;<br>
+            •	is past its expiry date;<br>
+            •	is a defective item.<br>
+            <br>
+            Returns NOT Eligible If the Item(s) You Ordered:<br>
+            •	is without original packing/accessories.<br>
+            •	is used or tampered with.<br>
+            On receiving the goods back from you, TouchMed shall review and assess the quality of the claim and the goods and then shall decide. The decision taken by the company in this regard shall be considered to be final. If the claim is found to be right, the money shall be refunded within 7 working days in your account. In case of cash on delivery, the claim amount shall be deducted in the next bill.<br>
+            <br>
+            <strong>
+            <li> INFORMATION DISCLAIMER <br>
+            </li>
+            </strong> You acknowledge that the information provided through the App is compiled from sources, which are beyond the control of the Company though such information is generally recognized to be generally reliable, you acknowledge that inaccuracies may occur and the Company does not warrant the accuracy or suitability of the information. The Company does not endorse in anyway any advertisers/ contents of the advertisers on the pages of the app. You are to verify the veracity of all information on your own before undertaking reliance and action thereupon. The Company shall not be responsible nor liable for any consequential damages arising on account of you relying on the contents of any advertisement.<br>
+            <br>
+            If you believe that the content on this App is illegal, offensive, infringing or objectionable or unlawful in any manner whatsoever, please notify us immediately by writing to us in the email address provided below. Upon proper investigation, the Company will take reasonable efforts to remove such content, if found illegal, offensive, infringing or objectionable or unlawful in any manner whatsoever.<br>
+            <br>
+            Under this EULA, you assume all risk of errors and/or omissions in the App, including the transmission or translation of information. You assume full responsibility for implementing sufficient procedures and checks to satisfy your requirements for the accuracy and suitability of the App, including the information, and for maintaining any means, which you may require for the reconstruction of lost data or subsequent manipulations or analyses of the information under EULA.<br>
+            <br>
+            <strong>
+            <li> EQUIPMENT AND OPERATION <br>
+            </li>
+            </strong> You shall provide and maintain all smart phone / internet and other equipment necessary to access the App and the costs of any such equipment and/or mobile / internet connections or use, including any applicable taxes, shall be borne solely by you. You are responsible for operating your own equipment used to access the App. <br>
+            <br>
+            You also agree to receive communication from the Company by way of calls, sms, email, whatsapp communication and any other mode of communication, in relation to your transactions on the App, which may include information related to orders, delivery, credit, transactions and offers. You undertake to not initiate any legal / statutory action against the Company arising from your receipt of such communication. The Company shall remain under an obligation to comply with the applicable TRAI regulations and any other applicable laws and agrees and acknowledges to not contravene the same. <br>
+            <br>
+            <strong>
+            <li>LINKS TO THIRD PARTY SITES <br>
+            </li>
+            </strong> The links in the App will allow you to access apps / Applications ("Linked Sites") other than the App. [You acknowledge that, when you click on a link to visit site / app thus linked, a frame may appear that contains the Company logo, advertisements and/or other content selected by the Company.] The Linked Sites are not under the direct or indirect control of the Company. The Company has not reviewed, nor approved the contents of the Linked Sites and is not responsible for the contents or omissions of any Linked Site or any links contained in a Linked Site. The inclusion of any Linked Site does not imply endorsement by the Company of the same. You shall access all such links at your sole risk, cost and consequences. <br>
+            <br>
+            The Company does not make any representations or warranties as to the security of any information, content or materials (including, without limitation, credit card and other personal information) you might be requested to give to any third party on the Linked Sites. You hereby irrevocably waive any claim against the Company with respect to information, content and materials contained on the Linked Sites and any information, content and materials you provide to such third party sites (including, without limitation, credit card, KYC and other personal / business information). The Company strongly encourages you to make whatever investigation you feel necessary or appropriate before proceeding with any online or offline transaction with any of these third party Linked Sites.<br>
+            <br>
+            <strong>
+            <li> INDEMNIFICATION <br>
+            </li>
+            </strong> You are responsible for maintaining the confidentiality of your username(s), password(s), and your account(s), as well as all activities that occur under your account(s). You hereby agree to indemnify, defend, and hold us, our licensors, licensees, distributors, agents, representatives and other authorized users, and each of the foregoing entities' respective resellers, distributors, service providers and suppliers, and all of the foregoing entities' respective officers, directors, owners, employees, agents, representatives and assigns (collectively, the "Indemnified Parties") harmless from and against any and all losses, damages, liabilities and costs (including settlement costs and any legal or other fees and expenses for investigating or defending any actions or threatened actions) incurred by the Indemnified Parties in connection with any claim arising out of any breach by you of these terms of use or claims arising from your use of this App and/or your account(s). You shall use your best efforts to cooperate with the Company in the defence of any such claim. The Company reserves the right, at our own expense, to employ separate counsel and assume the exclusive defense and control of any matter otherwise subject to indemnification by you.<br>
+            <br>
+            <strong>
+            <li> CONFLICTING TERMS AND SEVERABILITY<br>
+            </li>
+            </strong> If there is any conflict between the EULA and other documents, the EULA shall govern and be effective, whether such other documents is prior to or subsequent to herewith, or is signed or acknowledged by any director, officer, employee, representative or agent of the Company. If any part of this EULA is determined to be invalid or unenforceable pursuant to applicable law then the invalid or unenforceable provision will be deemed superseded by a valid, enforceable provision that most closely matches the intent of the original provision and the remainder of the EULA shall continue in effect. No waiver of any provision of the EULA by us shall be deemed a further or continuing waiver of such provision or any other provision, and the Company's failure to assert any right or provision under these the EULA shall not constitute a waiver of such right or provision. <br>
+            <br>
+            <strong>
+            <li> ATTORNEY'S FEES <br>
+            </li>
+            </strong> If the Company takes action (by itself or through its associate companies) to enforce any of the provisions of this EULA, including but not limited to collection of any amounts due hereunder, claim of any and all other nature against you etc. the Company shall be entitled to recover from you (and you agree to pay), in addition to all sums to which it is entitled or any other relief, at law or in equity, reasonable and necessary attorney's fees and any costs of any litigation. <br>
+            <br>
+            <strong>
+            <li>15. ENTIRE AGREEMENT <br>
+            </li>
+            </strong> The EULA and Amendment thereto constitutes the entire agreement between the Company and you, and no other agreement, written or oral, exists between you and the Company. <br>
+            <br>
+            <strong>
+            <li> TERMINATION <br>
+            </li>
+            </strong> The EULA shall remain in full force and effect unless terminated or cancelled for any of the following reasons: (a) immediately by the Company for any unauthorised access or use by you (b) immediately by the Company if you assign or transfer (or attempt the same) any rights granted to you under this EULA; (c) immediately, if you violate any of the provisions herein. Termination or cancellation of this EULA shall not affect any right or relief to which the Company may be entitled to, at law or in equity in any part of the world. Upon termination of this EULA, rights (if any) granted to you will immediately terminate and revert to the Company.
+            Upon termination, the App will be immediately deleted from your mobile device.
+            The Company expressly reserves the right to restrain you from installing, registering on or using the App in the future after the termination of this EULA.<br>
+            <br>
+            <strong>
+            <li>JURISDICTION <br>
+            </li>
+            </strong> The terms of this EULA are exclusively based on, construed according to and subject to the jurisdiction of Indian law. You hereby irrevocable consent to the exclusive jurisdiction, seat and venue of competent courts in Mumbai, India in any and all disputes arising out of or relating to the use of the App. 
+            In the event of any questions/queries please write in at the following address: 
+            TOUCHMED, 302-303, BROADWAY CENTER, DR. AMBEDKAR ROAD, DADAR TT, MUMBAI — 400 014 Email - info@touchmed.in<br>
+            <br>
+          </ol>
+          <strong>PRIVACY POLICY<br>
+          </strong> This privacy policy sets out to explain how TouchMed uses and protects any information that you may share for the purpose of browsing / transacting on the TouchMed mobile app ("App"). We at TouchMed are committed to protecting your privacy to the utmost. You may be required to submit from time to time certain information for the purpose of registration and carrying out transactions on the App, which may be personally identifiable and of utmost necessity for transacting on the App. TouchMed shall use this information in accordance with this Privacy Policy. TouchMed shall at its sole discretion amend this Privacy Policy from time to time and it is your sole responsibility to verify the amendments from time to time and satisfy yourself regarding the changes.
+          This Privacy Policy shall be effective from-March 1, 2016.<br>
+          <br>
+          Your clicking of the 'Register' button during the initial registration on the App shall indicate your irrevocable consent to this Privacy Policy.<br>
+          <br>
+          <strong>What type of information do we collect about you ?<br>
+          </strong> We will collect personally identifiable information from you in a variety of ways including but not limited to your personal details like name, age, gender, email address, contact number, date of birth & anniversary and business information like Registered Medical Practitioner Number (RMP No), category of business, billing information, shipping information, bank account details, Drug License Number (DL No), Permanent Account Number (PAN), Value Added Tax number (VAT), Service Tax number (ST), TDS Identification Number (TIN), Bank Account statements, Shops and Establishment Act certificates, Trade Licenses, Food and Safety Standards Association of India (FSSAI) licenses, Food and Drug Association (FDA) licenses and such other statutory / non-statutory licences that may be mandatory to be uploaded on the App for our verification and records in order to give further access to you for transacting on the App.<br>
+          <br>
+          By opting to accept the terms and conditions contained in the End User License Agreement (EULA), you have specifically represented that Do Not Disturb (DND) rights are not applicable to you with respect to the App and have expressed permission to contact you through email, sms and / or any other manner that may be possible using the contact information that you have provided to TouchMed.<br>
+          <br>
+          <strong>What do we do with personally identifiable information ?<br>
+          </strong> In the event the same is specifically stated at the time of collection and registration, this information may be used for the purpose of market research and business analytic activities that may be undertaken by TouchMed to measure various parameters of its business. Even in this case, TouchMed shall not permit to divulge your information for any commercial purposes whatsoever, other than as specified in the EULA to be forwarded to certain credit institutions for purposes as specified therein. Sending such information to credit institutions does not give any financial revenue / gain to TouchMed. The App is on a hosted model wherein the payment collection services are provided by the payment gateway. In such cases, the data required by these entities shall solely be under their control and TouchMed shall have no records of the same in its possession. These entities shall only use your information for the particular task for which they have been associated with the App. More details on the terms of use of these entities should be gathered by you at your sole cost and consequence from your sole sources. ln the event TouchMed completely assigns / sells its core business, the buyer shall be entitled to use your information as per the provisions of this Privacy Policy. <br>
+          <br>
+          ln the event it is of utmost necessity to TouchMed to divulge your personally identifiable information in order to comply with any applicable laws or court orders, decrees or proceedings or governmental or regulatory rules and regulations or for arbitration purposes as may be directed by the legal framework of India, TouchMed shall in good faith, without your express permission release your information to the appropriate authorities. ln the event we use third party processors to administer and process for the purposes notified in the Privacy Policy, we may also share details with third parties (such as auditors, legal advisors and / or any other professionals) to obtain advice. Any such processing will be governed by an agreement in the form required by law, preserving any statutory data protection rights.<br>
+          <br>
+          <strong>Use of Cookies<br>
+          </strong> We collect information through technology to make our App more interesting and user friendly. For instance, when you come to our App, we collect your IP address. An IP address is often associated with the portal through which you enter the Internet, like your ISP (Internet service provider), your business place, shop, or your residence. Standing alone, your IP address is not personally identifiable. At times, we also use IP addresses to collect information regarding the frequency with which our guests visit various parts of our App. We may combine this information with personally identifiable information to arrive at certain observations with regards to the transactions on the App.<br>
+          <br>
+          Our App also uses cookies. Cookies are pieces of information that an app sends to your handheld communication device (mobile phone) while you are viewing the PP. We and other companies use cookies for a variety of purposes. For instance, when you return to our App after logging in, cookies provide information to the App so that the App will remember who you are. You can choose to have your handheld communication device (mobile phone) warn you each time a cookie is being sent, or you can choose to turn off all cookies. You do this through your browser settings.
+          Each browser is a little different, so look at your browser Help menu to learn the correct way to modify your cookies. If you turn cookies off, you won't have access to many features that make your App experience smoother, like the features mentioned above, and some of our services may not function properly.<br>
+          <br>
+          Our App uses a variety of technical methods for tracking purposes, including beacons. Beacons are small pieces of data that are embedded in images on the pages of the App.
+          We also use these technical methods to analyze the traffic patterns on our App, such as the frequency with which our users visit various parts of our App. These technical methods may involve the transmission of information either directly to us or to another party authorized by us to collect information on our behalf. We also use these technical methods in HTML e-mails that we send our guests to determine whether our guests have opened those e-mails and/or clicked on links in those e-mails. The information from use of these technical methods may be collected in a form that is personally identifiable.
+          Links to other Applications<br>
+          <br>
+          You should be aware that when you are on our App you could be directed to other apps / Applications where the personal information collected is outside the control of TouchMed. For example, if you click on a banner advertisement the click may take you off the App. The privacy policy of the new Application will govern the information obtained from you on such app / Application.
+          Changes to this policy<br>
+          <br>
+          We may change this Policy and our T&C from time to time and will post the latest version of this Privacy Policy on the App. If we ever wish to use your personal information in a way which is incompatible with the information in this Privacy Policy, we will only do so with your consent.<br>
+          <br>
+          <strong>Queries</strong><br>
+          In the event of any questions/queries please write in at the following address:
+          TOUCHMED, 302-203, BROADWAY CENTER, DR. AMBEDKAR ROAD, DADAR TT, MUMBAI — 400 014 
+          Email - info@touchmed.in </div >
+      </div>
+    </div>
+  </div>
+  <!--1 section Home end--> 
+  
+</div>
+<div class="wrap">
+  <div class="box">
+    <div id="social-icons">
+      <ul>
+        <li><a href="#"><i class="flaticon-facebook6"></i></a> </li>
+        <li><a href="#"><i class="flaticon-social19"></i></a> </li>
+        <li><a href="#"><i class="flaticon-google16"></i></a> </li>
+        <li><a href="#"><i class="flaticon-social40"></i></a> </li>
+        <li><a href="#"><i class="flaticon-social7"></i></a> </li>
+        <li><a href="#"><i class="flaticon-logo3"></i></a> </li>
+      </ul>
+    </div>
+    <div id="footer-nav">
+      <ul>
+        <li><a href="faq.html">FAQs</a> </li>
+        |
+        <li><a href="terms.html">Terms & Conditions</a> </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<script src="js/jquery.easings.min.js"></script> 
+<script src="js/jquery.fullPage.js"></script> 
+<script src="js/cbpFWTabs.js"></script> 
+<script src="js/jquery.sidr.min.js"></script> 
+<script src="js/scripts.js"></script> 
+<!--<script type="text/javascript" src="js/video.js"></script> -->
+
+</body>
+</html>
